@@ -1,0 +1,67 @@
+.login {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+
+.list-group {
+    padding: 0 15px;
+}
+
+.navbar {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.logo {
+    margin: 0;
+}
+
+.navbar::before,
+.navbar::after {
+    display: none;
+}
+
+.user {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user>* {
+    margin: 0;
+}
+
+.user p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container {
+    width: 1220px;
+}
+
+.new_do {
+    margin-bottom: 40px;
+}
+
+li.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+a .glyphicon {
+    color: rgb(51, 51, 51);
+    transition: .2s linear;
+}
+
+a .glyphicon:hover {
+    color: red;
+}
